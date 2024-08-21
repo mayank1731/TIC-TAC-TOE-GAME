@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="26011-353916142_medium.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div id="content">
+        <h1><b>𓂀𝕋𝕀ℂ-𝕋𝔸ℂ-𝕋𝕆𝔼𓂀 </b> </h1>
+        <div id="modeSelection">
+            <button class="glow-button" id="playerVsPlayer">ⓅⓁⒶⓎⒺⓇ ⓋⓈ ⓅⓁⒶⓎⒺⓇ</button>
+            <button class="glow-button" id="playerVsComputer">ⓅⓁⒶⓎⒺⓇ ⓋⓈ ⒸⓄⓂⓅⓊⓉⒺⓇ</button>
+        </div>
+        <div id="gameBoard" class="hidden">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+        <h2 id="statusMessage"></h2>
+        <button class="glow-button hidden" id="restartButton">𝕽𝕰𝕾𝕿𝕬𝕽𝕿 𝕲𝕬𝕸𝕰</button>
+    </div>
+    <audio id="winSound" src="_Koi_Mil_Gaya_Computer_Sound_Ringtone_(by Fringster.com).mp3"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
